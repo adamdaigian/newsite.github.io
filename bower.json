@@ -27,6 +27,7 @@
     "_config.yml",
     "composer.json",
     "CONTRIBUTING.md",
+    "docs",
     "js/tests",
     "test-infra"
   ],
