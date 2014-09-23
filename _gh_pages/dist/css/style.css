@@ -1,5 +1,16 @@
-.navbar-nav > ul > li:hover {
-	background: none;
+.navbar-default {
+	border: none;
+	background: transparent;
+	margin-bottom: -50px;
+	z-index: 20;
+}
+
+.navbar-default > ul > li:hover {
+	background: transparent;
+}
+
+.bg {
+  background: transparent;
 }
 
 .navbar-nav > .active > a,
@@ -16,10 +27,6 @@
 	background: radial-gradient(circle farthest-side at right bottom,#fff 8%,#154866 70%,#000);
 	height: 460px;
 	overflow: hidden;
-}
-
-.bg {
-  background: transparent;
 }
 
 .show {
